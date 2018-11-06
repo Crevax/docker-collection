@@ -1,7 +1,7 @@
-FROM crevax/android-sdk:1.1.0
+FROM crevax/android-sdk:1.2.0
 
 LABEL maintainer="CJ Davis<cj@cjdavis.me>"
-LABEL version="1.1.0"
+LABEL version="1.2.0"
 
 ENV ANDROID_VERSION 27
 ENV ANDROID_BUILD_TOOLS_VERSION 27.0.2
