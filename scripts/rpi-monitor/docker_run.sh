@@ -9,6 +9,7 @@ docker run \
   --volume=/etc:/dockerhost/etc:ro \
   --volume=/proc:/dockerhost/proc:ro \
   --volume=/usr/lib:/dockerhost/usr/lib:ro \
+  --restart=unless-stopped \
   -p=8888:8888 \
   --name="rpi-monitor" \
   -d \
